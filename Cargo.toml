@@ -1,0 +1,14 @@
+[package]
+name = "gpuwry"
+version = "0.1.0"
+edition = "2024"
+description = "Make it simple to use WebViews using gpui.rs"
+license = "MIT"
+repository = "https://github.com"
+readme = "README.md"
+# keywords = ["utility", "parsing", "example"]
+# categories = ["development-tools"]
+
+[dependencies]
+gpui = { git = "https://github.com/zed-industries/zed" }
+wry = "0.57.0"
